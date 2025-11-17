@@ -10,6 +10,9 @@
 .svn/
 migrate_working_dir/
 
+# Markdown files (workshop documentation)
+*.md
+
 # IntelliJ related
 *.iml
 *.ipr

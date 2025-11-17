@@ -30,7 +30,6 @@ static final routes = {
     '/parametres': (context) => Parametres(),
   };
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -52,7 +51,6 @@ static final routes = {
           return AuthentificationPage();
         }
       )
-
     );
   }
 }
