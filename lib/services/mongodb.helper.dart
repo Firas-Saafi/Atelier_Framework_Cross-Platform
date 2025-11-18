@@ -8,7 +8,7 @@ class MongoDBHelper {
 
   // Remplacer par votre chaîne de connexion MongoDB Atlas
   static const String MONGO_URL =
-      "mongodb+srv://firas:firas@cluster0.mi6zlcr.mongodb.net/myapp?retryWrites=true&w=majority";
+      "mongodb+srv://<username>:<password>@cluster.xxxxx.mongodb.net/<dbname>?retryWrites=true&w=majority";
   static const String COLLECTION_NAME = "contacts";
 
   MongoDBHelper._init();
